@@ -1,6 +1,6 @@
 # EXASOL command line client in a docker
 
-Docker image include EXASOL exaplus utility.
+Docker image includes EXASOL exaplus utility.
 
 To view help run:
 
