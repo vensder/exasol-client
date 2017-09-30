@@ -8,3 +8,5 @@ RUN apk add --update curl perl && \
 	rm -rf EXAplus-6.0.4/
 
 WORKDIR /app
+ENTRYPOINT ["/app/exaplus"]
+CMD ["--help"]
