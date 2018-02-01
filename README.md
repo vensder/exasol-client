@@ -7,11 +7,16 @@ View help:
 ```bash
 docker run --rm vensder/exasol-client
 ```
+or
+
+```bash
+docker run --rm vensder/exasol-client --help
+```
 
 View version:
 
 ```bash
-docker run --rm vensder/exasol-client --help
+docker run --rm vensder/exasol-client --version
 ```
 
 Run with parameters:
