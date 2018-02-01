@@ -2,19 +2,19 @@
 
 Docker image includes EXASOL exaplus utility.
 
-To view help run:
+View help:
 
 ```bash
 docker run --rm vensder/exasol-client
 ```
 
-To view version run:
+View version:
 
 ```bash
 docker run --rm vensder/exasol-client --help
 ```
 
-To run with parameters:
+Run with parameters:
 
 ```bash
 docker run --rm vensder/exasol-client  [-f <sql file>] [-c <connection string>] [-u <user>] [-p <passwd>] <options>
