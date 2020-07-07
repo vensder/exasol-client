@@ -4,6 +4,10 @@
 
 Docker image includes Exasol EXAplus utility.
 
+EXAplus is the database client for the EXASolution Database.
+
+You don't need to install the Java Runtime Environment and Perl to run this utility in the docker.
+
 Supported versions of the Exasol EXAplus utility:
 
 * 6.0.1
