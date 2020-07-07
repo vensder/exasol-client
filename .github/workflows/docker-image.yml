@@ -2,8 +2,14 @@ name: Docker Image CI
 
 on:
   push:
+    paths-ignore:
+      - 'README.*'
+      - 'img/**'
     branches: [ master ]
   pull_request:
+    paths-ignore:
+      - 'README.*'
+      - 'img/**'
     branches: [ master ]
 
 jobs:
