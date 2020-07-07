@@ -1,7 +1,7 @@
 FROM openjdk:8-jre-alpine
 
-ARG version="EXAplus-6.1.7"
-ARG link="https://www.exasol.com/support/secure/attachment/90246/${version}.tar.gz"
+ARG version="EXAplus-6.2.5"
+ARG link="https://www.exasol.com/support/secure/attachment/100297/${version}.tar.gz"
 
 RUN apk add --update curl perl && \
 	rm -rf /var/cache/apk/* && \
