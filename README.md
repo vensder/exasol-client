@@ -1,6 +1,6 @@
 # EXASOL command line client in a docker
 
-[![Docker downloads](https://img.shields.io/docker/pulls/vensder/exasol-client)](https://hub.docker.com/r/vensder/exasol-client)
+[![Docker downloads](https://img.shields.io/docker/pulls/vensder/exasol-client)](https://hub.docker.com/r/vensder/exasol-client) [![Docker build status](https://img.shields.io/docker/build/vensder/exasol-client)](https://hub.docker.com/r/vensder/exasol-client)
 
 Docker image includes EXASOL exaplus utility.
 
@@ -9,8 +9,8 @@ View help:
 ```bash
 docker run --rm vensder/exasol-client
 ```
-or
 
+or
 ```bash
 docker run --rm vensder/exasol-client --help
 ```
